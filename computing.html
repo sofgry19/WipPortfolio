@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- head of html file -->
+<head>
+		<meta charset="UTF-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Code Portfolio</title>
+    <link type="text/css" rel="stylesheet" href="assets/materialize/css/materialize.css"  media="screen,projection"/>
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="assets/fluiditype-master/fluidtype.css">
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<!-- Javascript for Materilize UI -->
+					<script type="text/javascript" src="assets/materialize/js/materialize.js" onload="loaded=true;"></script>
+					<script>
+					$(document).ready(function () {
+
+
+						$('.carousel.carousel-slider').carousel({
+								fullWidth: true,
+								indicators: true
+							});
+							M.AutoInit();
+							});
+
+					</script>
+</head>
+<!-- body of html file -->
+<body>
+		<div class="navbar-fixed">
+		<nav class="nav-extended">
+		<div class="nav-wrapper">
+			<a href="index.html" class="brand-logo">Sofia Grytsenko</a>
+			<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+			<ul id="nav-mobile" class="right hide-on-med-and-down">
+				<li><a href="design.html">Design</a></li>
+				<li class="active"><a href="computing.html">Programming</a></li>
+				<li><a href="assets/SofiaGrytsenkoResume2022.docx.pdf">Resume</a></li>
+			</ul>
+		</div>
+	</nav>
+  </div>
+	<ul class="sidenav" id="mobile-demo">
+		<li><a href="design.html">Design</a></li>
+		<li class="active"><a href="computing.html">Programming</a></li>
+		<li><a href="assets/SofiaGrytsenkoResume2022.docx.pdf">Resume</a></li>
+	</ul>
+	<div id="main">
+			<h1>Code Portfolio</h1>
+			<div id="web" class="carousel carousel-slider center">
+			<div class="carousel-item" href="#one!">
+				<div class="card large horizontal">
+				 <div class="center card-image">
+					 <video width="500" height="250" controls>
+						 <source src="images/JQueryProject.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+			</video>
+				 </div>
+				 <div class="card-stacked">
+					 <div class="card-content">
+						 <h2>Videos: Re-Designing and Developing RIT's iSchool's Website</h2>
+						 <p>A website created using JQuery and RIT's API. The request was to create a modern redesign of the iSchool department's website while learning how to use an API. The server it is hosted on can only be reached if on RIT's wifi or VPN.</p>
+					 </div>
+				 </div>
+			 </div>
+			</div>
+			<div class="carousel-item" href="#two!">
+				<div class="card large horizontal">
+				 <div class="center card-image">
+					 <video width="500" height="250" controls>
+						 <source src="images/minigame-maniamp4.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+			</video>
+				 </div>
+				 <div class="card-stacked">
+					 <div class="card-content">
+						 <h2>Videos: Educational Unity Minigame</h2>
+						 <p>Developed for the client, Readorium. The requirements were to create fun, engaging mini-games that could help elementary school kids memorize vocabulary terms pulled from their database. The game engine that was chosen was Unity with C# as main programming language and PHP to interact with the mySQL database. I was the project manager and head programmer for the PHP portion. I developed some game elements like the main and pause screens as well.</p>
+					 </div>
+				 </div>
+			 </div>
+			</div>
+			<div class="carousel-item" href="#three!">
+				<div class="card large horizontal">
+				 <div class="center card-image">
+					 <video width="500" height="250" controls>
+						 <source src="images/plantproj.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+			</video>
+				 </div>
+				 <div class="card-stacked">
+					 <div class="card-content">
+						 <h2>Videos: Plant Encyclopedia</h2>
+						 <p>A JavaScript project coded in HTML and CSS that utlized JSON data to dynamically create the second page based on what the user clicked on. This project was meant to show how repetitve code could be created recursivley. The server it is hosted on can only be reached if on RIT's wifi or VPN.</p>
+					 </div>
+				 </div>
+			 </div>
+			</div>
+			</div>
+
+
+	<!-- Photos of Coding Projects -->
+	<div class="carousel carousel-slider center">
+		<div class="carousel-item" href="#one!">
+			 <div class="card large horizontal">
+				 <div class="center card-image">
+					 <img height="100vh" src="images/NYC.png">
+				 </div>
+				 <div class="card-stacked">
+					 <div class="card-content">
+						 <h2>NYC Tourist Website</h2>
+						 <p>Fully coded HTML/CSS/Javascript website to teach the user about New York City and what they can do there. This was my first full-stack development process, as I also used mySQL databases to record responses from the form page of the site.</p>
+					 </div>
+				 </div>
+			 </div>
+		</div>
+		<div class="carousel-item" href="#two!">
+			<div class="card large horizontal">
+				<div class="center card-image">
+					<img height="100vh" src="images/NYC2.jpg">
+				</div>
+				<div class="card-stacked">
+					<div class="card-content">
+						<h2>Project Overview</h2>
+						<p>Technology: HTML, CSS, JavaScript, mySQL, PHP <br> Role: Full Stack Developer  <br> Project Deliverables: Functional Website</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="carousel-item" href="#three!">
+			<div class="card large horizontal">
+			 <div class="center card-image">
+				 <img height="100vh" src="images/NYC3.jpg">
+			 </div>
+			 <div class="card-stacked">
+				 <div class="card-content">
+					 <h2>Overall Process</h2>
+					 <p>This project started with the data collection for all of the pages. I knew I wanted to keep a relatively simple design scheme so I could focus on the back-end portion. The form collects data and inputs it into a mySQL database using PHP; the maps were inserted using iFrames</p>
+				 </div>
+			 </div>
+		 </div>
+	 </div>
+	 </div>
+ </div>
+  </body>
+  </html>

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- head of html file -->
+<head>
+		<meta charset="UTF-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> Sofia Grytsenko's Portfolio </title>
+    <link type="text/css" rel="stylesheet" href="assets/materialize/css/materialize.css"  media="screen,projection"/>
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="assets/fluiditype-master/fluidtype.css">
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<!-- Javascript for Materilize UI -->
+		<script type="text/javascript" src="assets/materialize/js/materialize.js" onload="loaded=true;"></script>
+				<script>
+				$(document).ready(function () {
+
+						 $('#web').carousel({
+								 fullWidth: true,
+								 indicators: true
+						 });
+
+						 $('#adobe').carousel({
+								 fullWidth: true,
+								 indicators: true
+						 });
+
+						 $('#figma').carousel({
+								 fullWidth: true,
+								 indicators: true
+						 });
+						 M.AutoInit();
+
+
+				 });
+				 $('.next').click(function() {
+			    $('.carousel.carousel-slider').carousel('next');
+			  });
+			  $('.prev').click(function() {
+			    $('.carousel.carousel-slider').carousel('prev');
+			  });
+				</script>
+</head>
+<!-- body of html file -->
+<body>
+		<div class="navbar-fixed">
+		<nav class="nav-extended">
+		<div class="nav-wrapper">
+			<a href="index.html" class="brand-logo active">Sofia Grytsenko</a>
+			<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+			<ul id="nav-mobile" class="right hide-on-med-and-down">
+				<li><a href="design.html">Design</a></li>
+				<li><a href="computing.html">Programming</a></li>
+				<li><a href="assets/SofiaGrytsenkoResume2022.docx.pdf">Resume</a></li>
+			</ul>
+		</div>
+		<div class="nav-content">
+			<ul class="tabs tabs-transparent">
+				<li class="tab"><a class="active" href="#figma">Figma</a></li>
+				<li class="tab"><a href="#adobe">Adobe</a></li>
+				<li class="tab"><a href="#web">Web Applications</a></li>
+			</ul>
+		</div>
+	</nav>
+  </div>
+	<ul class="sidenav" id="mobile-demo">
+		<li><a href="design.html">Design</a></li>
+		<li><a href="computing.html">Programming</a></li>
+		<li><a href="assets/SofiaGrytsenkoResume2022.docx.pdf">Resume</a></li>
+	</ul>
+	<!-- div for image of developer -->
+	<div id="main">
+		<div class="figure">
+      <figure>
+        <img title="Sofia Grytsenko" id="circlePic" class="image"
+        alt="Image of me, Sofia Grytsenko. A pale girl with glasses, colorful hair, brown eyes, and wearing a black dress."
+        src="images/sofia.jpg" width="200" height="200">
+        <figcaption>Sofia Grytsenko</figcaption>
+      </figure>
+    </div>
+		<!-- Welcome Text -->
+    <h1>Welcome to my Portfolio!</h1>
+	    <h5>My name is Sofia Grytsenko and I am a user experience (UX) designer who loves simplifying complex technological experiences.</h5>
+	    <p>I am an upcoming graduate of the Human-Centered Computing (HCC) major and Web Development and Psychology minors from Rochester Institute of Technology.</p>
+			<p>Through my major, I have gained an advanced understanding of user flows, wireframing, <br> and prototyping. I am passionate about understanding how these designs could be applied.<br>Web Development advanced my understanding of back-end coding languages and system architecture.</a></p>
+	    <p>Below is a slideshow of my design and coding projects. To see more details and projects<br>visit any of the other pages.</p>
+		<!-- Figma Slideshow -->
+
+		<div id="figma" class="carousel carousel-slider center">
+			<div class="carousel-fixed-item center">
+      <a class="btn next"></a>
+      <a class="btn previous"></a>
+     </div>
+	    <div class="carousel-item" href="#one!">
+				 <div class="card large horizontal">
+					 <div class="center card-image">
+						 <img height="100vh" src="images/Frame 65.png">
+					 </div>
+					 <div class="card-stacked">
+						 <div class="card-content">
+							 <h2>Cassini Interactive Infographic Project</h2>
+							 <p>A fully interactive infographic poster about the Cassini-Hyugens Spacecraft. Included in the Figma file are sketches, interactions of a flat poster, a final flat poster, and all of the progress for the interaction. It was a two-part project illustrating how interaction can hide information and make intaking information more manageable by the user.</p>
+						 </div>
+					 </div>
+				 </div>
+	    </div>
+	    <div class="carousel-item" href="#two!">
+				<div class="card large horizontal">
+					<div class="center card-image">
+						<img height="100vh" src="images/Interpreter Information.png">
+					</div>
+					<div class="card-stacked">
+						<div class="card-content">
+							<h2>Zoom Hard-Of-Hearing Plug-In Project</h2>
+							<p>A fully interactive Zoom prototype if an extra plug-in focused on the hard-of-hearing community was added. The pain points that were discussed were: not always having an interpreter and general frustration about the accessibility of zoom.</p>
+						</div>
+					</div>
+				</div>
+	    </div>
+	    <div class="carousel-item" href="#three!">
+				<div class="card large horizontal">
+ 				 <div class="center card-image">
+ 					 <img height="100vh" src="images/Frame 4.png">
+ 				 </div>
+ 				 <div class="card-stacked">
+ 					 <div class="card-content">
+ 						 <h2>Drip Coffee Mobile Application Project</h2>
+ 						 <p>A fictional small coffee shop asked our team to create a prototype for their mobile application. I was the project manager, visual lead, and interaction designer. I helped plan the application, created the basic wireframe and lead the design system creation process, and created the interaction points on Figma.</p>
+ 					 </div>
+ 				 </div>
+ 			 </div>
+ 		 </div>
+</div>
+<!-- Adobe Slideshow -->
+<div id="adobe" class="carousel carousel-slider center">
+	<div class="carousel-item" href="#one!">
+		 <div class="card large horizontal">
+			 <div class="center card-image">
+				 <img height="100vh" src="images/phtoshop1.png">
+			 </div>
+			 <div class="card-stacked">
+				 <div class="card-content">
+					 <h2>Recreation of Wassily Kandinsky’s Composition VIII Photoshop Project</h2>
+					 <p>A project done to illustrate attention to detail and ability to follow a design.</p>
+				 </div>
+			 </div>
+		 </div>
+	</div>
+	<div class="carousel-item" href="#two!">
+		<div class="card large horizontal">
+			<div class="center card-image">
+				<img height="100vh" src="images/template.jpg">
+			</div>
+			<div class="card-stacked">
+				<div class="card-content">
+					<h2>Infographic InDesign Project</h2>
+					<p>An inforgraphic done about defortestation. Meant to illustrate the different ways of displaying information to lead more traffic to the fictional website.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="carousel-item" href="#three!">
+		<div class="card large horizontal">
+		 <div class="center card-image">
+			 <video width="500" height="250" controls>
+				 <source src="images/PaymentInsight.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+</video>
+		 </div>
+		 <div class="card-stacked">
+			 <div class="card-content">
+				 <h2>Technological Update Premiere Pro Project</h2>
+				 <p>Video update detailing the results of a sprint for the Data Science team. The purpose was to simplify the results of a two-week agile sprint done by the Data Science team for the rest of the company. This included non-IT members, so it had to be accessibile for everyone. Animations done in After Effects.</p>
+			 </div>
+		 </div>
+	 </div>
+ </div>
+</div>
+<!-- Web Applications slideshow -->
+<div id="web" class="carousel carousel-slider center">
+<div class="carousel-item" href="#one!">
+	<div class="card large horizontal">
+	 <div class="center card-image">
+		 <video width="500" height="250" controls>
+			 <source src="images/JQueryProject.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+</video>
+	 </div>
+	 <div class="card-stacked">
+		 <div class="card-content">
+			 <h2>Re-Designing and Developing RIT's iSchool's Website</h2>
+			 <p>A website created using JQuery and RIT's API. The request was to create a modern redesign of the iSchool department's website while learning how to use an API.</p>
+		 </div>
+	 </div>
+ </div>
+</div>
+<div class="carousel-item" href="#two!">
+	<div class="card large horizontal">
+	 <div class="center card-image">
+		 <video width="500" height="250" controls>
+			 <source src="images/minigame-maniamp4.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+</video>
+	 </div>
+	 <div class="card-stacked">
+		 <div class="card-content">
+			 <h2>Educational Unity Minigame</h2>
+			 <p>Developed for the client, Readorium. The requirements were to create fun, engaging mini-games that could help elementary school kids memorize vocabulary terms pulled from their database. The game engine that was chosen was Unity with C# as main programming language and PHP to interact with the mySQL database. I was the project manager and head programmer for the PHP portion. I developed some game elements like the main and pause screens as well.</p>
+		 </div>
+	 </div>
+ </div>
+</div>
+</div>
+</div>
+</body>
+</html>
