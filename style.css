@@ -211,3 +211,7 @@ ul.topnav{
   display: block;
   margin: 6em;
 }
+
+li.right hide-on-med-and-down {
+  font-size: 2 em;
+}
